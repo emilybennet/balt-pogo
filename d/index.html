@@ -7,13 +7,12 @@
     <title>Baltimore PoGO</title>
   </head>
   <body>
-    <a href="#" id="link">Redirecting to contest form…</a>
+    <a href="#" id="link">Redirecting to coordination chat…</a>
     <script>
-      const url = "https://airtable.com/apppNjLuntTrVb65A/shr496KzxzNapMYDd";
-      const link = document.getElementById("link");
-      link.setAttribute("href", url);
+      const b =
+        "eyJuIjoxNzAyNDk1OTM1LCJsIjoiaHR0cHM6Ly9kaXNjb3JkLmdnL3hiUHdOeHpNIn0=";
       window.setTimeout(function () {
-        window.location = url;
+        window.location = JSON.parse(atob(b)).l;
       }, 3000);
     </script>
   </body>
