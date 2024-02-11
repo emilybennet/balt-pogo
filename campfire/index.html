@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baltimore PoGO</title>
+  </head>
+  <body>
+    <a href="#" id="link">Redirecting to Baltimore PoGO on Niantic Campfire…</a>
+    <script>
+      const campfireUrl = [
+        "https://campfire.onelink.me/eBr8?af_dp=campfire://",
+        "&",
+        "af_force_deeplink=true&deep_link_sub1=",
+        "cj1jbHVicyZjPTVjM2E2ZjQ4LWQ4N2QtNGVkNy04N2U1LTA2YTI1ZjYwNDY2OCZpPXRydWU=",
+      ];
+      const isIos = /iPad|iPhone|iPod/.test(navigator.userAgent);
+      if (isIos) campfireUrl[1] = "?";
+
+      const url = campfireUrl.join("");
+      const link = document.getElementById("link");
+      link.setAttribute("href", url);
+      window.setTimeout(function () {
+        window.location = url;
+      }, 3000);
+    </script>
+  </body>
+</html>
