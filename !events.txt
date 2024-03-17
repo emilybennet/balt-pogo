@@ -8,6 +8,13 @@
     <li>
       <a href="/contest">Catch contest</a>
     </li>
+    <li>
+      <a href="/map">Walk + area map</a>
+    </li>
+    </li>
+    <li>
+      <a href="/redeem">Redeem code</a>
+    </li>
   </ul>
 </section>
 
