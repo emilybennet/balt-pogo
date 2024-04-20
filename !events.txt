@@ -36,3 +36,22 @@
     </li>
   </ul>
 </section>
+
+<section>
+  <h2>“Zodiac Cup” IRL PvP Tournament at Meadworks</h2>
+  <p>
+    Charm City Meadworks, Mar 30. Player check-in: 1pm, battles start:
+    1:30pm.
+  </p>
+  <ul>
+    <li>
+      <a href="https://devon.gg/zodiac-cup/">Meta format rules</a>
+    </li>
+    <li>
+      <span>Campfire check-in (soon™)</span>
+    </li>
+    <li>
+      <span>Dracoviz bracket (soon™)</span>
+    </li>
+  </ul>
+</section>
